@@ -38,7 +38,7 @@ namespace MyMvcCv.Repositories
             db.SaveChanges(); //"TUpdate" Değerini direk olarak değişikleri kayd et... 
         }
 
-        public T Find(Expression<Func<T, bool>> where)
+        public T Find(Expression<Func<T, bool>> where) //Sileceğim metodu bulma 
         {
             return db.Set<T>().FirstOrDefault(where);
         }
