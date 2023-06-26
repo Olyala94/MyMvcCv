@@ -1,0 +1,24 @@
+﻿@model  MyMvcCv.Models.Entity.TblYetenekler
+
+@{
+    ViewBag.Title = "YetenekDuzenle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2>Yeni Yetenek Düzenleme Sayfası</h2>
+<br />
+<form method="post">
+    @Html.Label("Yetenek Açıklaması")
+    <br />
+    @Html.TextBoxFor(x => x.Yetenek, new { @class = "form-control" })
+    <br />
+    @Html.Label("Derece")
+    <br />
+    @Html.TextBoxFor(x => x.Oran, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-outline-success">Güncelle</button>
+</form>
+
+
+
