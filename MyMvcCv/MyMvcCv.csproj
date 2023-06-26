@@ -2275,6 +2275,13 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Content Include="ProjectScreenShots\Deneyimler.png" />
+    <Content Include="ProjectScreenShots\EgitimHayatim.png" />
+    <Content Include="ProjectScreenShots\HakkimdaSayfasi.png" />
+    <Content Include="ProjectScreenShots\HobilerimSayfasi.png" />
+    <Content Include="ProjectScreenShots\Ilteisim.png" />
+    <Content Include="ProjectScreenShots\Sertifikalarim.png" />
+    <Content Include="ProjectScreenShots\YeteneklerimSayfasi.png" />
     <Content Include="resume-pages\assets\img\favicon.ico" />
     <Content Include="resume-pages\assets\img\olya2.png" />
     <Content Include="resume-pages\assets\img\profile.jpg" />
