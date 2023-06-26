@@ -1,4 +1,4 @@
-# Mvc5 ile Sıfırdan Admin Paneli Dinamik CV Sitesi
+# Dinamik CV Sitesi
 **Proje Hakkında:** <br/><br/>
 Projeyi Asp.Net ile oluşturdum.
 
