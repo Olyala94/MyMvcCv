@@ -133,6 +133,7 @@
     <Compile Include="Controllers\EgitimController.cs" />
     <Compile Include="Controllers\HakkimdaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SertifikaController.cs" />
     <Compile Include="Controllers\YetenekController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -240,6 +241,7 @@
     <Content Include="AdminLTE-3.1.0\dist\img\credit\paypal2.png" />
     <Content Include="AdminLTE-3.1.0\dist\img\credit\visa.png" />
     <Content Include="AdminLTE-3.1.0\dist\img\default-150x150.png" />
+    <Content Include="AdminLTE-3.1.0\dist\img\document.jpg" />
     <Content Include="AdminLTE-3.1.0\dist\img\icons.png" />
     <Content Include="AdminLTE-3.1.0\dist\img\olya2.png" />
     <Content Include="AdminLTE-3.1.0\dist\img\photo1.png" />
@@ -2620,6 +2622,7 @@
     <Content Include="Views\Egitim\Index.cshtml" />
     <Content Include="Views\Egitim\EgitimEkle.cshtml" />
     <Content Include="Views\Egitim\EgitimDuzenle.cshtml" />
+    <Content Include="Views\Sertifika\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
