@@ -1,4 +1,8 @@
-# Mvc5 ile Sıfırdan Admin Paneli Dinamik CV Sitesi
+# Dinamik CV Sitesi
+**Proje Hakkında:** <br/><br/>
+Projeyi Asp.Net ile oluşturdum.
+
+Projedeki tüm textler veri tabanından çekilmekte. Projedeki her başlığın verileri, veri tabanında tablolarda tutulmaktadır.<br/><br/>
 **Proje Görselleri:** <br/>
  <br/>
  ![About](https://github.com/Olyala94/MyMvcCv/blob/master/MyMvcCv/ProjectScreenShots/HakkimdaSayfasi.png)<hr/>
