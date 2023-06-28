@@ -25,7 +25,7 @@
             <td>@item.Baslik</td>
             <td>@item.AltBaslik</td>
             <td>@item.Tarih</td>
-            <td><a href="/Deneyim/DeneyimSil/@item.ID" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Deneyim/DeneyimSil/@item.ID" class="btn btn-danger" onclick="return confirm('Silmek istediğinize emin misiniz?');">Sil</a></td>
             <td><a href="/Deneyim/DeneyimGetir/@item.ID" class="btn btn-success">Düzenle</a></td>
         </tr>
     }
