@@ -23,28 +23,31 @@
                                     @foreach (var item in Model)
                                     {
                                         <div class="time-label">
-                                            <span class="bg-success">
-                                                @item.Tarih
-                                            </span>
+                                            <a href="/Sertifika/SertifikaGetir/@item.ID" class="btn btn-success">
+                                                <span class="bg-success">
+                                                    @item.Tarih
+                                                </span>
+                                            </a>
                                         </div>
                                         <div>
                                             @*<i class="fas fa-comment-dots bg-primary"></i>*@
 
-                                            <div class="timeline-item">
+                                            <div class="timeline-item">                                            
                                                 <span class="time"><i class="far fa-clock"></i> 12:05</span>
 
-                                                <h3 class="timeline-header"><a href="/Sertifika/Index/">@item.Baslik</a></h3>
+                                                <h3 class="timeline-header"><a href="/Sertifika/SertifikaGetir/@item.ID">@item.Baslik</a></h3>
                                                 <div class="timeline-body">
                                                     @item.Aciklama
                                                 </div>
                                                 <div class="timeline-footer">
-                                                    <a href="#" class="btn btn-primary btn-sm">Düzenle</a>
-                                                    <a href="#" class="btn btn-danger btn-sm">Sil</a>
+                                                    <a href="/Sertifika/SertifikaGetir/@item.ID/" class="btn btn-primary btn-sm">Düzenle</a>
+                                                    <a href="/Sertifika/SertifikaSil/@item.ID" class="btn btn-danger" onclick="return confirm('Silmek istediğinize emin misiniz?');">Sil</a>
                                                 </div>
                                             </div>
                                         </div>
                                     }
                                 </div>
+                                <a href="/Sertifika/YeniSertifika/" class="btn btn-info">Yeni Sertifika Girişi</a>
                             </div>
                         </div>
                     </div>
@@ -54,3 +57,5 @@
     </section>
 </body>
 </html>
+
+
