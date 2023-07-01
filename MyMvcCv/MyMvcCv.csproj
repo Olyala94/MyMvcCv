@@ -2285,6 +2285,8 @@
     <Content Include="ProjectScreenShots\AdminDeneyimGuncelle.png" />
     <Content Include="ProjectScreenShots\AdminDeneyimlerim.png" />
     <Content Include="ProjectScreenShots\AdminEğitimlerim.png" />
+    <Content Include="ProjectScreenShots\AdminHobiDuzenleSayfasi.png" />
+    <Content Include="ProjectScreenShots\AdminIletisimSayfasi.png" />
     <Content Include="ProjectScreenShots\AdminSertifikalarım.png" />
     <Content Include="ProjectScreenShots\AdminYeteneklerim.png" />
     <Content Include="ProjectScreenShots\Deneyimler.png" />
