@@ -20,3 +20,5 @@ Projedeki tüm textler veri tabanından çekilmekte. Projedeki her başlığın 
   ![AdminDeneyimGuncelle](https://github.com/Olyala94/MyMvcCv/blob/master/MyMvcCv/ProjectScreenShots/AdminDeneyimGuncelle.png)<hr/>
   ![AdminYeteneklerim](https://github.com/Olyala94/MyMvcCv/blob/master/MyMvcCv/ProjectScreenShots/AdminYeteneklerim.png)<hr/>
   ![AdminSertifikalarim](https://github.com/Olyala94/MyMvcCv/blob/master/MyMvcCv/ProjectScreenShots/AdminSertifikalar%C4%B1m.png)<hr/>
+  ![AdminHobiDuzenleSayfasi](https://github.com/Olyala94/MyMvcCv/blob/master/MyMvcCv/ProjectScreenShots/AdminHobiDuzenleSayfasi.png)<hr/>
+  ![AdminIletisimSayfasi](https://github.com/Olyala94/MyMvcCv/blob/master/MyMvcCv/ProjectScreenShots/AdminIletisimSayfasi.png)<hr/>
