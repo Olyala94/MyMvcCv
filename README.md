@@ -22,3 +22,4 @@ Projedeki tüm textler veri tabanından çekilmekte. Projedeki her başlığın 
   ![AdminSertifikalarim](https://github.com/Olyala94/MyMvcCv/blob/master/MyMvcCv/ProjectScreenShots/AdminSertifikalar%C4%B1m.png)<hr/>
   ![AdminHobiDuzenleSayfasi](https://github.com/Olyala94/MyMvcCv/blob/master/MyMvcCv/ProjectScreenShots/AdminHobiDuzenleSayfasi.png)<hr/>
   ![AdminIletisimSayfasi](https://github.com/Olyala94/MyMvcCv/blob/master/MyMvcCv/ProjectScreenShots/AdminIletisimSayfasi.png)<hr/>
+  ![AdminProfilDuzenlemeSayfasi](https://github.com/Olyala94/MyMvcCv/blob/master/MyMvcCv/ProjectScreenShots/AdminProfilDuzenlemSayfasi.png)<hr/>
