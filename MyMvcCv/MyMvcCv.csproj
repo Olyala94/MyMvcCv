@@ -176,6 +176,9 @@
     <Compile Include="Models\Entity\TblSertifikalarim.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Entity\TblSosyalMedya.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Entity\TblYetenekler.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -2287,6 +2290,7 @@
     <Content Include="ProjectScreenShots\AdminEğitimlerim.png" />
     <Content Include="ProjectScreenShots\AdminHobiDuzenleSayfasi.png" />
     <Content Include="ProjectScreenShots\AdminIletisimSayfasi.png" />
+    <Content Include="ProjectScreenShots\AdminProfilDuzenlemSayfasi.png" />
     <Content Include="ProjectScreenShots\AdminSertifikalarım.png" />
     <Content Include="ProjectScreenShots\AdminYeteneklerim.png" />
     <Content Include="ProjectScreenShots\Deneyimler.png" />
@@ -2636,6 +2640,7 @@
     <Content Include="Views\Sertifika\YeniSertifika.cshtml" />
     <Content Include="Views\iletisim\Index.cshtml" />
     <Content Include="Views\Hobi\Index.cshtml" />
+    <Content Include="Views\Default\SosyalMedia.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
