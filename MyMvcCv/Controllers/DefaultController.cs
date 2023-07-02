@@ -18,7 +18,7 @@ namespace MyMvcCv.Controllers
         }
         public PartialViewResult SosyalMedia()
         {
-            var sosyalMedia = db.TblSosyalMedya.ToList();
+            var sosyalMedia = db.TblSosyalMedya.Where(x=>x.Durum==true).ToList(); //Durumu "True" olanlar benim Ana sayfamda göstersin(Listelenssin)
             return PartialView(sosyalMedia);
         }
         public PartialViewResult Deneyim()
