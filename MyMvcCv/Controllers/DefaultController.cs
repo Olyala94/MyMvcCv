@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace MyMvcCv.Controllers
 {
+    [AllowAnonymous]
     public class DefaultController : Controller
     {
         // GET: Default

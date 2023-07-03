@@ -7,11 +7,12 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace MyMvcCv.Controllers
-{
+{ 
+    [Authorize]
     public class EgitimController : Controller
     {
         GenericRepository<TblEgitimlerim> repo = new GenericRepository<TblEgitimlerim>();
-        [Authorize]
+       
         public ActionResult Index()
         {
             var egitim = repo.List();

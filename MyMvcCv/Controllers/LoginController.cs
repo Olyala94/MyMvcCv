@@ -8,6 +8,7 @@ using System.Web.Security;
 
 namespace MyMvcCv.Controllers
 {
+    [AllowAnonymous]
     public class LoginController : Controller
     {
         [HttpGet]
@@ -31,6 +32,13 @@ namespace MyMvcCv.Controllers
             {
                 return RedirectToAction("Index", "Login");
             }
+        }
+
+        public ActionResult LogOut()
+        {
+            FormsAuthentication.SignOut();
+            Session.Abandon();
+            return RedirectToAction("Index", "Login");
         }
     }
 }
