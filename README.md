@@ -1,8 +1,7 @@
 # Dinamik CV Sitesi
 **Proje Hakkında:** <br/><br/>
-Projeyi Asp.Net ile oluşturdum.
-
-Projedeki tüm textler veri tabanından çekilmekte. Projedeki her başlığın verileri, veri tabanında tablolarda tutulmaktadır.<br/><br/>
+Proje, Asp.Net kullanılarak oluşturuldu ve projedeki tüm metinler veritabanından çekilmektedir. Her başlığın verileri, veritabanında tablolar aracılığıyla tutulmaktadır. 
+<br/><br/>
 **Proje Görselleri (CV):** <br/>
  <br/>
  ![About](https://github.com/Olyala94/MyMvcCv/blob/master/MyMvcCv/ProjectScreenShots/HakkimdaSayfasi.png)<hr/>
